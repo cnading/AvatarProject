@@ -1,54 +1,25 @@
 
-public class SkilledFighters extends Person
-			{
-				@Override
-				protected void fight()
-					{
-						// TODO Auto-generated method stub
+public abstract class SkilledFighters extends Person {
+	protected String name;
+	protected String nationRes;
+	protected int weight;
+	protected String height;
+	protected int age;
+	protected int wisdom;
+	protected int power;
+	protected int evil;
+	protected int skill;
+	protected int spiritWrld;
+	protected String weapon;
+	protected String stats;
 
-					}
+	protected abstract void fight();
 
-				@Override
-				protected void talk()
-					{
-						// TODO Auto-generated method stub
+	protected abstract void talk();
 
-					}
+	protected abstract void meditate();
 
-				@Override
-				protected void meditate()
-					{
-						System.out.println("Wise move, sometimes it pays off to think rather than react. ");
+	protected abstract void eat();
 
-					}
-
-				@Override
-				protected void eat()
-					{
-						// TODO Auto-generated method stub
-
-					}
-
-				@Override
-				protected void run()
-					{
-						// TODO Auto-generated method stub
-
-					}
-
-				public SkilledFighters(String n, String nR, int lb, String h, int a, int w, int p, int e, int s, int sW)
-					{
-						name = n;
-						nationRes = nR;
-						weight = w;
-						height = h;
-						age = a;
-						wisdom = w;
-						power = p;
-						evil = e;
-						skill = s;
-						spiritWrld = sW;
-
-					}
-
-			}
+	protected abstract void run();
+}

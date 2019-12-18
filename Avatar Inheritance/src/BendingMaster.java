@@ -1,5 +1,5 @@
 
-public class BendingMaster extends Person
+public class BendingMaster extends Benders
 			{
 				@Override
 				protected void fight()
@@ -36,18 +36,19 @@ public class BendingMaster extends Person
 
 					}
 
-				public BendingMaster(String n, String nR, int lb, String h, int a, int w, int p, int e, int s, int sW)
-					{
-						name = n;
-						nationRes = nR;
-						weight = w;
-						height = h;
-						age = a;
-						wisdom = w;
-						power = p;
-						evil = e;
-						skill = s;
-						spiritWrld = sW;
+				public BendingMaster(String n, String nR, int lb, String h, int a, int w, int p, int e, int s, int sW, String st)
+				{
+					name = n;
+					nationRes = nR;
+					weight = lb;
+					height = h;
+					age = a;
+					wisdom = w;
+					power = p;
+					evil = e;
+					skill = s;
+					spiritWrld = sW;
+					stats= st;
 
 					}
 

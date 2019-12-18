@@ -1,5 +1,5 @@
 
-public class FightMaster extends SkilledFighters
+public class YoungFighter extends SkilledFighters
 			{
 				@Override
 				protected void fight()
@@ -36,7 +36,7 @@ public class FightMaster extends SkilledFighters
 
 					}
 
-				public FightMaster(String n, String nR, int lb, String h, int a, int w, int p, int e, int s, int sW, String wp, String st)
+				public YoungFighter(String n, String nR, int lb, String h, int a, int w, int p, int e, int s, int sW, String wp, String st)
 				{
 					name = n;
 					nationRes = nR;
@@ -52,4 +52,5 @@ public class FightMaster extends SkilledFighters
 					stats= st;
 
 				}
-}
+
+			}

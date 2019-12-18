@@ -33,7 +33,7 @@ public class RollDice
 		
 		public static int rollWeight()
 			{
-				total = (int) (Math.random() * 200) + 75;
+				total = (int) (Math.random() * 200) + 100;
 				return total;
 			}
 		public static int rollHeight()

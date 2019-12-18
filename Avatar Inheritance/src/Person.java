@@ -11,6 +11,7 @@ public abstract class Person
 		protected int evil;
 		protected int skill;
 		protected int spiritWrld;
+		protected String stats;
 		
 		protected abstract void fight();
 		protected abstract void talk();
